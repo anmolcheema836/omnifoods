@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ff6200">
+        <title>Omnifood-Cheema Foods</title>
+        <link rel="icon" type="image/x-icon" href="resource/image/favicon.png">
+        <link href="vendors/css/ionicons.min.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="resource/css/style.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/Responsive.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="preloader">
+            <img src="resource/image/logo.png" alt="">
+        </div>
+        <div class="dark-overlay" onclick="hidetogglemenu()"></div>
+    <header>
+        <nav id="navbar">
+            <div class="Navbar-Container">
+                <img src="resource/image/logo-white.png" alt="logo-white" class="logo-white">
+                <ul class="main-nav">
+                    <li><a href="#Food-Delivery" class="Food-Delivery" onclick="hidemenubyli()">Food Delivery
+                        <span class="tab-hover-border"></span>
+                    </a></li>
+                    <li><a href="#How-It-Works" class="How-It-Works" onclick="hidemenubyli()">How it works
+                        <span class="tab-hover-border"></span>
+                    </a></li>
+                    <li><a href="#Our-Cities" class="Our-Cities" onclick="hidemenubyli()">Our Cities
+                        <span class="tab-hover-border"></span>
+                    </a></li>
+                    <li><a href="#Sign-up" class="Sign-up" onclick="hidemenubyli()">Sign up
+                        <span class="tab-hover-border"></span>
+                    </a></li>
+                </ul>
+                <div class="hamburger" id="hamburger" data-aos="fade">
+                    <div class="hamburgerbase">
+                    <button id="hamburger-button" onclick="hamburgerMenu()"  tabindex="0" aria-label="Menu Button">
+                        <span class="burger-bar" id="burger-bar1"></span>
+                        <span class="burger-bar" id="burger-bar2"></span>
+                        <span class="burger-bar" id="burger-bar3"></span></button>
+                    </div>
+                </div>
+            </div>
+            
+        </nav>
+        <div class="header-text">
+            <h1>Goodbye junk food. <br> Hello super healthy meals.</h1>
+            <a class="btn btn-full" href="#">I’m hungry</a>
+            <a class="btn btn-border" href="#">Show me more</a>
+        </div>    
+        
+    </header>
+    <section class="section-features section" id="Food-Delivery">
+            <div class="row feature-row">
+                <h2>Get food fast - not fast food.</h2>
+                <p class="feature-text">Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!</p>
+            </div>
+            <div class="row feature-description">
+                <div class="feature-box">
+                    <i class="ion-ios-infinite-outline icon-big"></i>
+                    <h3>Up to 365 days/year</h3>
+                    <p>Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.</p>
+                </div>
+                <div class="feature-box">
+                    <i class="ion-ios-stopwatch-outline icon-big"></i>
+                    <h3>Ready in 20 minutes</h3>
+                    <p>You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.</p>
+                </div>
+                <div class="feature-box">
+                    <i class="ion-ios-nutrition-outline icon-big"></i>
+                    <h3>100% Organic</h3>
+                    <p>All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!</p>
+                </div>
+                <div class="feature-box">
+                    <i class="ion-ios-cart-outline icon-big"></i>
+                    <h3>Order anything</h3>
+                    <p>We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!</p>
+                </div>
+            </div>
+    </section>
+    <section class="section-meals">
+        <ul class="meals-showcase">
+            <li>
+                <figure class="meal-photo">
+                    <img src="resource/image/1.webp" alt="Korean bibimbap with egg and vegetables">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resource/image/2.webp" alt="Simple Italian pizza with cherry tomatoes">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resource/image/3.webp" alt="Chicken breast steak with vegetables">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resource/image/4.webp" alt="Autumn pumpkin soup">
+                </figure>
+            </li>
+        </ul>
+        <ul class="meals-showcase">
+            <li>
+                <figure class="meal-photo">
+                    <img src="resource/image/5.webp" alt="Paleo beef steak with vegetables">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resource/image/6.webp" alt="Healthy beef baguette with egg and vegetables">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resource/image/7.webp" alt="Burger with cheddar and bacon">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resource/image/8.webp" alt="Granola with cheries and strawberries">
+                </figure>
+            </li>
+        </ul>
+    </section>
+    <section class="section-app section" id="How-It-Works">
+        <div class="row how-it-works-row">
+            <h2>HOW IT WORKS — SIMPLE AS 1, 2, 3</h2>
+        </div>
+        <div class="row mobile-app-container">
+            <div class="app-download-image-container span-1-of-2">
+                <img src="resource/image/iPhone 15.png" alt="Mobile app" class="mobile-app-image ">
+                <div class="mobile-shadow"></div>
+            </div>
+           
+
+            <div class="three-simple-steps">
+                <div class="steps step-one">
+                    <p class="count">1</p>
+                    <p class="steps-para">Choose the subscription plan that best fits your needs and sign up today.</p>
+                </div>
+                <div class="steps step-two">
+                    <p class="count">2</p>
+                    <p class="steps-para">Order your delicious meal using our mobile app or website.</p>
+                </div>
+                <div class="steps step-three">
+                    <p class="count">3</p>
+                    <p class="steps-para">Enjoy your meal after less than 20 minutes. See you the next time!</p>
+                </div>
+                <div class="download-app-container">
+                    <a href="#"><img src="resource/image/app-store-img.webp" alt="Go to app store" class="app-store-logo"></a>
+                    <a href="#"><img src="resource/image/download-app-android.webp" alt="Go to play store" class="play-store-logo"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cities-section section" id="Our-Cities">
+        <div class="row how-it-works-row">
+            <h2>WE'RE CURRENTLY IN THESE CITIES</h2>
+        </div>
+        <div class="row all-cities-container">
+            <div class="city-grid-box">
+                <img src="resource/image/lisbon-3.webp">
+                <h3>Lisbon</h3>
+                <div class="cities-data">
+                    <i class="ion-ios-people icon-small"></i>
+                    1600+ happy eaters
+                </div>
+                <div class="cities-data">
+                    <i class="ion-star icon-small"></i>
+                    60+ top chefs
+                </div>
+                <div class="cities-data">
+                    <i class="ion-social-twitter icon-small"></i>
+                    <a href="#">@omnifood_lx</a>
+                </div>
+                </div>
+                <div class="city-grid-box">
+                <img src="resource/image/san-francisco.webp">
+                <h3>San Francisco</h3>
+                <div class="cities-data">
+                    <i class="ion-ios-people icon-small"></i>
+                    3700+ happy eaters
+                </div>
+                <div class="cities-data">
+                    <i class="ion-star icon-small"></i>
+                    160+ top chefs
+                </div>
+                <div class="cities-data">
+                    <i class="ion-social-twitter icon-small"></i>
+                    <a href="#">@omnifood_sf</a>
+                </div>
+                </div>
+                <div class="city-grid-box">
+                <img src="resource/image/berlin.webp">
+                <h3>Berlin</h3>
+                <div class="cities-data">
+                    <i class="ion-ios-people icon-small"></i>
+                    2300+ happy eaters
+                </div>
+                <div class="cities-data">
+                    <i class="ion-star icon-small"></i>
+                    110+ top chefs
+                </div>
+                <div class="cities-data">
+                    <i class="ion-social-twitter icon-small"></i>
+                    <a href="#">@omnifood_berlin</a>
+                </div>
+                </div>
+                <div class="city-grid-box">
+                <img src="resource/image/london.webp">
+                <h3>London</h3>
+                <div class="cities-data">
+                    <i class="ion-ios-people icon-small"></i>
+                    1200+ happy eaters
+                </div>
+                <div class="cities-data">
+                    <i class="ion-star icon-small"></i>
+                    50+ top chefs
+                </div>
+                <div class="cities-data">
+                    <i class="ion-social-twitter icon-small"></i>
+                    <a href="#">@omnifood_london</a>
+                </div>
+                </div>
+        </div>
+    </section>
+    <section class="testimonial-section">
+        <div class="row feedback-heading-row">
+            <h2>OUR CUSTOMERS CAN'T LIVE WITHOUT US</h2>
+        </div>
+        <div class="row feedback-row-container">
+            <div class="feedback-container">
+                <blockquote>
+                    Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+                    <cite><img src="resource/image/customer-1.webp">Alberto Duncan</cite>
+                </blockquote>
+            </div>
+            <div class="feedback-container"> <blockquote>
+                Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
+                <cite><img src="resource/image/customer-2.webp">Joana Silva</cite>
+            </blockquote></div>
+            <div class="feedback-container">
+                <blockquote>
+                    I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
+                    <cite><img src="resource/image/customer-3.webp">Milton Chapman</cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+    <section class="sign-up-section section" id="Sign-up">
+        <div class="row signup-row">
+            <h2>START EATING HEALTHY TODAY</h2>
+        </div>
+        <div class="row plan-row-container-wrapper">
+            <div class="plan-row">
+                <div class="plan-card premium-card">
+                    <div class="plan-price-box">
+                        <h3>Premium</h3>
+                        <p class="plan-price">$399 <span>/ Month</span></p>
+                        <p class="per-meal-price">That's only 13.30$ per meal</p>
+                    </div>
+                    <div class="plan-details-box">
+                        <ul>
+                            <li class="plan-detail">
+                                <svg height="1em" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>1 meal every day</li>
+                            <li class="plan-detail"><svg height="1em" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>Order 24/7</li>
+                            <li class="plan-detail"><svg height="1em" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>Access to newest creations</li>
+                            <li class="plan-detail"><svg height="1em" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>Free delivery</li>
+                        </ul>
+                    </div>
+                    <div class="sign-up-button-box">
+                        <a class="sign-up-button signupBtn" href="#">Sign up!
+                            <span class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512" fill="#ff6200"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg>
+                             </span>
+                        </a>
+                    </div>
+                </div>
+                <!-- second plan -->
+                <div class="plan-card pro-card">
+                    <div class="plan-price-box">
+                        <h3>PRO</h3>
+                        <p class="plan-price">$149 <span>/ Month</span></p>
+                        <p class="per-meal-price">That’s only 14.90$ per meal</p>
+                    </div>
+                    <div class="plan-details-box">
+                        <ul>
+                            <li class="plan-detail">
+                                <svg height="1em" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>1 meal 10 days/month</li>
+                            <li class="plan-detail"><svg height="1em" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>Order 24/7</li>
+                            <li class="plan-detail"><svg height="1em" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>Access to newest creations</li>
+                            <li class="plan-detail"><svg height="1em" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>Free delivery</li>
+                        </ul>
+                    </div>
+                    <div class="sign-up-button-box">
+                        <a class="signupBtn sign-up-button-border" href="#">Sign up!
+                            <span class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512" fill="#ff6200"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg>
+                             </span>
+                        </a>
+                    </div>
+                </div>
+                <!-- third plan -->
+                <div class="plan-card starter-card">
+                    <div class="plan-price-box">
+                        <h3>STARTER</h3>
+                        <p class="plan-price">$19 <span>/ Month</span></p>
+                        <p class="per-meal-price">That's only 19$ for a meal</p>
+                    </div>
+                    <div class="plan-details-box">
+                        <ul>
+                            <li class="plan-detail">
+                                <svg height="1em" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>1 meal</li>
+                            <li class="plan-detail"><svg height="1em" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>Order from 8 AM - 12 PM</li>
+                            <li class="plan-detail non-available-plan"><svg class="cross-svg" height="1em" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"/></svg>Access to newest creations</li>
+                            <li class="plan-detail"><svg height="1em" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>Free delivery</li>
+                        </ul>
+                    </div>
+                    <div class="sign-up-button-box">
+                        <a class="signupBtn sign-up-button-border" href="#">Sign up!
+                            <span class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512" fill="#ff6200"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg>
+                             </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="form-section section">
+        <div class="row signup-row">
+            <h2>WE'RE HAPPY TO HEAR FROM YOU</h2>
+        </div>
+        <div class="row form-container">
+            <form action="#" method="post" class="contact-form">
+            <div class="input-container">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Anthony Wick">
+            </div>
+
+            <div class="input-container">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="example@mail.com">
+            </div>
+
+            <div class="input-container">
+                <label for="referral">How did you find us?</label>
+                <select name="referral" id="referral">
+                    <option selected>Friends</option>
+                    <option>Advertisements</option>
+                    <option>Social Media</option>
+                    <option>Newsletter</option>
+                </select>
+            </div>
+
+            <div class="input-container">
+                <label for="newsletter">Newsletter</label>
+                <input type="checkbox" checked id="newsletter">
+                <label for="newsletter" id="yesPlease">Yes, Please</label>
+            </div>
+
+            <div class="input-container">
+                <label for="message">Drop a line</label>
+                <textarea name="message" id="message" cols="10" rows="2" placeholder="Message"></textarea>
+            </div>
+        </form>
+        </div>
+    </section>
+    <footer>
+        <div class="socials-container">
+            <a href="#" class="social twitter">
+                <svg height="1em" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+            </a>
+
+            <a href="#" class="social facebook"><svg height="1em" viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg></a>
+
+            <a href="#" class="social google-plus">
+                <svg height="1em" viewBox="0 0 640 512"><path d="M386.061 228.496c1.834 9.692 3.143 19.384 3.143 31.956C389.204 370.205 315.599 448 204.8 448c-106.084 0-192-85.915-192-192s85.916-192 192-192c51.864 0 95.083 18.859 128.611 50.292l-52.126 50.03c-14.145-13.621-39.028-29.599-76.485-29.599-65.484 0-118.92 54.221-118.92 121.277 0 67.056 53.436 121.277 118.92 121.277 75.961 0 104.513-54.745 108.965-82.773H204.8v-66.009h181.261zm185.406 6.437V179.2h-56.001v55.733h-55.733v56.001h55.733v55.733h56.001v-55.733H627.2v-56.001h-55.733z"/></svg>
+            </a>
+
+            <a href="#" class="social instagram"><svg height="1em" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+
+        </div>
+        <div class="links-container">
+            <ul>
+                <li class="footer-links"><a href="#">About us</a></li>
+                <li class="footer-links"><a href="#">Blog</a></li>
+                <li class="footer-links"><a href="#">Press</a></li>
+                <li class="footer-links"><a href="#">iOS App</a></li>
+                <li class="footer-links"><a href="#"> Android App</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2024 by Anmol Cheema. All rights reserved.</p>
+        </div>
+        <div class="back-to-top-button" id="back-to-top-button"onclick=" scrolltoTopfunction()">
+            <img src="resource/image/Groom.png" alt="">
+        </div>
+    </footer>
+    </body>
+    <script src="resource/js/script.js"></script>
+</html>
